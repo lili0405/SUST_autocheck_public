@@ -48,7 +48,7 @@ jobs:
         
       # Runs a single command using the runners shell
       - name: working
-        run: python arctime_auto_sign.py ${{ secrets.CODE1 }} ${{ secrets. MOBILE}}  ${{ secrets. PSW}} ${{ secret.LOCATION}}
+        run: python SUSTYiBan.py ${{ secrets.CODE1 }} ${{ secrets. MOBILE}}  ${{ secrets. PSW}} ${{ secret.LOCATION}}
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
